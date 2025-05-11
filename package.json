@@ -1,6 +1,6 @@
 {
   "name": "happytalk-sdk-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "모던 웹 프레임워크를 위한 비공식 (Unofficial) 해피톡 채팅 SDK 로더",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lunaiz-corp/happytalk-sdk-loader.git"
+    "url": "git+https://github.com/kms0219kms/happytalk-sdk-loader.git"
   },
   "keywords": [
     "crm",
@@ -19,20 +19,20 @@
     "messenger"
   ],
   "author": {
-    "email": "minsu.kim@lunaiz.com",
+    "email": "me@devayaan.me",
     "name": "Minsu Kim",
     "url": "https://github.com/kms0219kms"
   },
   "contributors": [
     {
-      "email": "minsu.kim@lunaiz.com",
+    "email": "me@devayaan.me",
       "name": "Minsu Kim",
       "url": "https://github.com/kms0219kms"
     }
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/lunaiz-corp/happytalk-sdk-loader/issues"
+    "url": "https://github.com/kms0219kms/happytalk-sdk-loader/issues"
   },
   "scripts": {
     "fix": "gts fix",

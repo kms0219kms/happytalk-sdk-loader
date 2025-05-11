@@ -378,7 +378,7 @@ export async function boot(options: BootOptions) {
  * @see [Happytalk Docs: API functions](https://design.happytalkio.com/docs/function)
  */
 export function open(): void {
-  if (isSSR() || !isSDKLoaded()) return;
+  if (isSSR() || !isSDKLoaded() || !window.ht) return;
   window.ht.open();
 }
 
@@ -391,7 +391,7 @@ export function open(): void {
  * @see [Happytalk Docs: API functions](https://design.happytalkio.com/docs/function)
  */
 export function close() {
-  if (isSSR() || !isSDKLoaded()) return;
+  if (isSSR() || !isSDKLoaded() || !window.ht) return;
   window.ht.close();
 }
 
@@ -404,7 +404,7 @@ export function close() {
  * @see [Happytalk Docs: API functions](https://design.happytalkio.com/docs/function)
  */
 export function linkToKakao() {
-  if (isSSR() || !isSDKLoaded()) return;
+  if (isSSR() || !isSDKLoaded() || !window.ht) return;
   window.ht.linkToKakao();
 }
 
@@ -417,7 +417,7 @@ export function linkToKakao() {
  * @see [Happytalk Docs: API functions](https://design.happytalkio.com/docs/function)
  */
 export function linkToNaver() {
-  if (isSSR() || !isSDKLoaded()) return;
+  if (isSSR() || !isSDKLoaded() || !window.ht) return;
   window.ht.linkToNaver();
 }
 
@@ -431,7 +431,7 @@ export function linkToNaver() {
  * @see [Happytalk Docs: API functions](https://design.happytalkio.com/docs/function)
  */
 export function setParams(params: string) {
-  if (isSSR() || !isSDKLoaded()) return;
+  if (isSSR() || !isSDKLoaded() || !window.ht) return;
   window.ht.setParams(params);
 }
 
@@ -442,7 +442,7 @@ export function setParams(params: string) {
  * @see [Happytalk Docs: API functions](https://design.happytalkio.com/docs/function)
  */
 export function sendText(text: string) {
-  if (isSSR() || !isSDKLoaded()) return;
+  if (isSSR() || !isSDKLoaded() || !window.ht) return;
   window.ht.sendText(text);
 }
 
@@ -453,7 +453,7 @@ export function sendText(text: string) {
  * @see [Happytalk Docs: API functions](https://design.happytalkio.com/docs/function)
  */
 export function sendImage(file: File[] | FileList) {
-  if (isSSR() || !isSDKLoaded()) return;
+  if (isSSR() || !isSDKLoaded() || !window.ht) return;
   window.ht.sendImage(file);
 }
 
@@ -463,7 +463,7 @@ export function sendImage(file: File[] | FileList) {
  * @see [Happytalk Docs: API functions](https://design.happytalkio.com/docs/function)
  */
 export function endChat() {
-  if (isSSR() || !isSDKLoaded()) return;
+  if (isSSR() || !isSDKLoaded() || !window.ht) return;
   window.ht.endChat();
 }
 
@@ -474,7 +474,7 @@ export function endChat() {
  */
 export const event = {
   on: (event: EventHandlers, callback: Function) => {
-    if (isSSR() || !isSDKLoaded()) return;
+    if (isSSR() || !isSDKLoaded() || !window.ht) return;
     window.ht.event.on(event, callback);
   },
 };

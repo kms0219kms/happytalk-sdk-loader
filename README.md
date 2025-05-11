@@ -1,11 +1,11 @@
 <h1 align="center">Welcome to happytalk-sdk-loader 👋</h1>
 <p>
   <img alt="NPM Version" src="https://img.shields.io/npm/v/happytalk-sdk-loader" />
-  <a href="https://lunaiz-corp.github.io/happytalk-sdk-loader/" target="_blank">
+  <a href="https://kms0219kms.github.io/happytalk-sdk-loader/" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/lunaiz-corp/happytalk-sdk-loader/blob/master/LICENSE" target="_blank">
-    <img alt="License: Apache--2.0" src="https://img.shields.io/github/license/lunaiz-corp/happytalk-sdk-loader" />
+  <a href="https://github.com/kms0219kms/happytalk-sdk-loader/blob/master/LICENSE" target="_blank">
+    <img alt="License: Apache--2.0" src="https://img.shields.io/github/license/kms0219kms/happytalk-sdk-loader" />
   </a>
 </p>
 
@@ -61,12 +61,12 @@ export default function Happytalk() {
 ## API 문서
 
 - 해피톡 공식 문서: https://design.happytalkio.com/docs/basic
-- TypeDoc Reference: https://lunaiz-corp.github.io/happytalk-sdk-loader
+- TypeDoc Reference: https://kms0219kms.github.io/happytalk-sdk-loader
 
 ## 라이센스
 
 Copyright © 2025 [LUNAIZ Corp](https://lunaiz.com).<br />
-This project is [Apache--2.0](https://github.com/lunaiz-corp/happytalk-sdk-loader/blob/master/LICENSE) licensed.
+This project is [Apache--2.0](https://github.com/kms0219kms/happytalk-sdk-loader/blob/master/LICENSE) licensed.
 
 ---
 

@@ -4,7 +4,7 @@
   <a href="https://kms0219kms.github.io/happytalk-sdk-loader/" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/kms0219kms/happytalk-sdk-loader/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/kms0219kms/happytalk-sdk-loader/blob/main/LICENSE" target="_blank">
     <img alt="License: Apache--2.0" src="https://img.shields.io/github/license/kms0219kms/happytalk-sdk-loader" />
   </a>
 </p>
@@ -52,11 +52,10 @@ export default function Happytalk() {
 
 ## 개발자
 
-👤 **Minsu Kim** @ LUNAIZ
+👤 **Minsu Kim**
 
-- Website: https://devayaan.me
 - Github: [@kms0219kms](https://github.com/kms0219kms)
-- Email: [minsu.kim@lunaiz.com](mailto:minsu.kim@lunaiz.com)
+- Email: [me@devayaan.me](mailto:me@devayaan.me)
 
 ## API 문서
 
@@ -65,8 +64,7 @@ export default function Happytalk() {
 
 ## 라이센스
 
-Copyright © 2025 [LUNAIZ Corp](https://lunaiz.com).<br />
-This project is [Apache--2.0](https://github.com/kms0219kms/happytalk-sdk-loader/blob/master/LICENSE) licensed.
+This project is [Apache--2.0](https://github.com/kms0219kms/happytalk-sdk-loader/blob/main/LICENSE) licensed.
 
 ---
 
